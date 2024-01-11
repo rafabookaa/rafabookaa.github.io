@@ -68,12 +68,17 @@
   .footer {
     padding: 25px;
   }
-  .contato {
-    display: block;
-  }
 
-  .contato img {
-    margin-bottom: 15px;
+  .contato-meios {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 45px;
+    
+  }
+   
+   .contato img {
+    margin-bottom: 10px;
   }
 
   .rodape-bg {
