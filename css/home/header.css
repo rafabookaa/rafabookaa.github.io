@@ -18,7 +18,7 @@
 }
 
 .logo {
-    font-size: 2rem;    
+    font-size: 1.2rem;    
     font-weight: 600;
     color: #fff;
 }
@@ -27,13 +27,15 @@
     display: flex;
     align-items: center;
     gap: 15px;
+    
 }
 
 .header-menu li a {
-    font-size: 1.2rem;
+    
     font-weight: 600;
     position: relative;
     color: #fff;
+    font-size: 0.9rem;
 }
 
 .header-menu li a::after {
